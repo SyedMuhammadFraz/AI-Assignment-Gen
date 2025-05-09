@@ -12,11 +12,7 @@ const GROQ_API_KEY = process.env.GROQ_API_KEY;
 
 // Kid-friendly English topics for elementary school children
 const kidFriendlyTopics = [
-  "alphabet", "phonics", "sight words", "basic spelling", "rhyming words",
-  "simple grammar", "basic punctuation", "vocabulary", "reading comprehension", 
-  "simple sentences", "storytelling", "adjectives", "nouns", "verbs",
-  "grammar", "tenses", "punctuation", "sentence structure", "parts of speech",
-  "synonyms", "antonyms", "comprehension", "essay writing", "poetry", "literature"
+  "alphabet", "phonics", "sight words", "basic spelling", "rhyming words"
 ];
 
 app.get('/api/assignments/mcqs', async (req, res) => {
